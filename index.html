@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="translator-container">
+        <h1>Language Translator</h1>
+        <div class="translator-wrapper">
+            <div class="translator-text-input">
+                <textarea class="translator-from-text" placeholder="Enter Text"></textarea>
+                <button class="read-from-text"><i class="fas fa-volume-up"></i> Read</button>
+                <textarea class="translator-to-text" placeholder="Translation" readonly></textarea>
+                <button class="read-to-text"><i class="fas fa-volume-up"></i> Read</button>
+            </div>
+            <div class="translator-controls">
+                <div class="translator-row">
+                    <label for="translator-from-select">From:</label>
+                    <select id="translator-from-select" class="translator-language-select"></select>
+                </div>
+                <button class="translator-exchange-btn"><i class="fas fa-exchange-alt"></i></button>
+                <div class="translator-row">
+                    <label for="translator-to-select">To:</label>
+                    <select id="translator-to-select" class="translator-language-select"></select>
+                </div>
+            </div>
+            <button class="translator-translate-btn">Translate Text</button>
+        </div>
+    </div>
+    <script src="country.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
