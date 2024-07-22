@@ -28,4 +28,4 @@ Develop a web application that translates text between languages with a simple u
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/language-translation-web-app.git
+   git clone https://github.com/charankumarpuvvadi/translation-app.git
