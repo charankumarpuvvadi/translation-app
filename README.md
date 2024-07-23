@@ -8,7 +8,7 @@ Developed a web application that translates text between languages with a simple
 
 ### Setup
 - Initialize translation libraries and APIs.
-- Configure speech-to-text and text-to-speech engines.
+- Configure text-to-speech engines.
 
 ### Functionality
 - Translate text inputs into a specified language.
